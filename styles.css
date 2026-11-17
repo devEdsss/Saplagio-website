@@ -200,6 +200,57 @@ body {
 }
 
 
+/* ===================== WHY CHOOSE US ===================== */
+
+.why-choose-us-section {
+    padding-block: 5rem;
+    background: #fff;
+    color: var(--navy);
+}
+
+.why-choose-us-info {
+    background: #fff;
+    color: var(--navy);
+}
+
+
+/* ===================== SERVICES WE OFFER ===================== */
+
+.services-we-offer {
+    padding-block: 5rem; 
+    background-color:var(--navy);
+}
+
+.services-carousel {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+}
+
+.services-carousel img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+/* ===================== CAROUSEL OVERLAY ===================== */
+
+.services-carousel .carousel-item {
+    position: relative;
+}
+
+.services-carousel .carousel-item::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.50);
+}
+
+/* Keep caption above the overlay */
+.services-carousel .carousel-caption {
+    z-index: 2;
+}
 
 
 /* ===================== EXPERTS / TEAM ===================== */
@@ -312,6 +363,13 @@ body {
     font-size: 0.8rem;
     opacity: 0.85;
 }
+
+
+
+
+
+
+
 
 /* ===================== FOOTER ===================== */
 .site-footer {
