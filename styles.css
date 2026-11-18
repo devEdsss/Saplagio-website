@@ -199,6 +199,14 @@ body {
 
 }
 
+/* ===================== BENIFITS SERVICES ===================== */
+.benifits-services {
+    padding-block: 5rem;
+    background: var(--navy);
+    color: var(--navy);
+}
+
+
 
 /* ===================== WHY CHOOSE US ===================== */
 
