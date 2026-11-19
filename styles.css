@@ -1,3 +1,8 @@
+/* ===================== HOME PAGE ===================== */
+
+
+
+
 /* ===================== FONT ===================== */
 @font-face {
     font-family: 'Montserrat';
@@ -94,6 +99,7 @@ body {
         background: rgba(31, 42, 55, 0.95);
     }
 }
+
 
 /* ===================== HERO CONTENT ===================== */
 .hero__content {
@@ -373,12 +379,6 @@ body {
 }
 
 
-
-
-
-
-
-
 /* ===================== FOOTER ===================== */
 .site-footer {
     background: var(--navy);
@@ -425,4 +425,55 @@ body {
     padding-block: 1.25rem;
     border-top: 1px solid rgba(255, 255, 255, 0.15);
     font-size: 0.875rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* ===================== SERVICES PAGE ===================== */
+
+
+
+.services-form {
+    width: 100%;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.form-floating {
+    margin-bottom: 2rem;
+    color: var(--navy);
+}
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-select:focus ~ label {
+    color: var(--orange);
+    opacity: 1;
+}
+
+.btn-contact-us-now {
+    color: white;
+    background-color: var(--orange);
+    border: 4px solid var(--orange);
+    transition: all 0.4s ease-in-out;
+}
+
+.btn-contact-us-now:hover {
+    transform: scale(1.05);
+}
+
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+.form-select:focus {
+    border-color: var(--orange);
+    box-shadow: 0 0 0 0.1rem var(--orange);
 }
